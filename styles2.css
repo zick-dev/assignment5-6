@@ -1,0 +1,72 @@
+ /* Custom Styles */
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #f8f9fa;
+ }
+
+ .hero {
+   background: linear-gradient(to right, #f9fafb, #eef2f6);
+   text-align: center;
+   padding: 60px 20px;
+ }
+
+ .hero h1 {
+   font-size: 3rem;
+   font-weight: bold;
+   color: #222;
+ }
+
+ .hero p {
+   font-size: 1.2rem;
+   color: #666;
+ }
+
+ .hero .btn-primary {
+   padding: 10px 20px;
+   font-size: 1rem;
+ }
+
+ .features {
+   text-align: center;
+   padding: 40px 20px;
+ }
+
+ .features h2 {
+   margin-bottom: 20px;
+   color: #333;
+ }
+
+ .features p {
+   color: #555;
+ }
+
+ .pricing {
+   background-color: #f9fafb;
+   padding: 60px 20px;
+ }
+
+ .pricing .card {
+   border: none;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease-in-out;
+ }
+
+ .pricing .card:hover {
+   transform: scale(1.05);
+ }
+
+ .faq {
+   padding: 60px 20px;
+ }
+
+ .faq h2 {
+   text-align: center;
+   margin-bottom: 30px;
+ }
+
+ #link-assignment5 {
+   background-color:lightblue;
+   color: #fff;
+   padding: 20px 0;
+   text-align: center;
+ }

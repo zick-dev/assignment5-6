@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Checkout Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">WP Pusher</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Download</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Learn More</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+          <li class="nav-item"><a class="btn btn-outline-primary" href="#">Account</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="equal-height">
+          <!-- Checkout Form -->
+          <div class="col-lg-7">
+            <div class="card p-4">
+              <h2 class="mb-4">Checkout</h2>
+
+              <!-- Basic Information -->
+              <div class="mb-4">
+                <h5 class="mb-3"><span class="highlight">1</span> Your Basic Information</h5>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Jane">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Doe">
+                  </div>
+                  <div class="col-12">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="janedoe@example.com">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Payment Information -->
+              <div class="mb-4">
+                <h5 class="mb-3"><span class="highlight">2</span> Your Payment Information</h5>
+                <div class="row g-3">
+                  <div class="col-12">
+                    <label for="cardNumber" class="form-label">Credit Card</label>
+                    <input type="text" class="form-control" id="cardNumber" placeholder="Card Number">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="MM / YY">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="CVC">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-success w-100">Buy WP Pusher</button>
+              <p class="mt-2 text-center">Need any help? <a href="#">Contact support</a></p>
+            </div>
+          </div>
+
+          <!-- Sidebar -->
+          <div class="col-lg-5">
+            <div class="sidebar h-100">
+              <h4>Freelancer</h4>
+              <p class="price">$99 <span class="small">/ year</span></p>
+              <p>Automatically renews after 1 year</p>
+              <ul>
+                <li>Use on 5 client sites</li>
+                <li>Private repositories</li>
+                <li>Email support</li>
+              </ul>
+              <p>Need 20 client sites? <a href="#" class="text-white">Switch to the Agency plan</a>.</p>
+              <blockquote class="mt-4">
+                <p class="text-white small">"FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!"</p>
+                <footer class="text-white small">- Kirk Beard</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="link-assignment6">
+    <p>&copy; 2024 Your Company. All rights reserved.</p>
+    <a href="assignment_6.html" class="btn btn-sm btn-outline-light">assignment 6</a>
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

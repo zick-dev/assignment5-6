@@ -1,0 +1,94 @@
+body {
+   background-color: #f8f9fa; /* Light gray background */
+ }
+
+ .navbar {
+   margin-bottom: 20px;
+ }
+
+ .card {
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .sidebar {
+   background-color: #007bff; /* Blue sidebar */
+   color: white;
+   padding: 20px;
+   border-radius: 10px;
+ }
+
+ .sidebar h4 {
+   color: #fff;
+ }
+
+ .sidebar .price {
+   font-size: 36px;
+   font-weight: bold;
+ }
+
+ .highlight {
+   font-weight: bold;
+   color: #ffc107; /* Yellow highlight */
+ }
+
+ .form-section .form-control {
+   border-radius: 8px;
+ }
+
+ /* Flexbox for equal height */
+ .equal-height {
+   display: flex;
+   flex-wrap: wrap; /* Handles stacking on smaller screens */
+   gap: 20px; /* Space between items */
+ }
+
+ .equal-height > div {
+   flex: 1; /* Equal height for both columns */
+ }
+
+ #link-assignment6 {
+   background-color: lightblue;
+   color: #fff;
+   padding: 20px 0;
+   text-align: center;
+ }
+
+ /* Media Queries */
+ @media (max-width: 768px) {
+   .equal-height {
+     flex-direction: column; /* Stack columns on smaller screens */
+   }
+
+   .sidebar {
+     margin-top: 20px;
+   }
+ }
+
+ @media (max-width: 576px) {
+   .card h2 {
+     font-size: 24px;
+   }
+
+   .sidebar .price {
+     font-size: 28px;
+   }
+
+   .sidebar p {
+     font-size: 14px;
+   }
+
+   .form-control {
+     font-size: 14px;
+   }
+
+   .btn {
+     font-size: 14px;
+   }
+ }
+a{
+   display: inline-flex;
+   align-items: center;
+   position: relative;
+   margin-right: 50px;
+}
